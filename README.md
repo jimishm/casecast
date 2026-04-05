@@ -44,6 +44,20 @@ Cases can be generated across specialties, difficulty levels, and degrees of dia
 1. This is my first Git. It's both easier and harder than I expected. Set up is quite easy. I'm worried that I'm doing something wrong still!
 2. This idea has been rattling around my head for years. Putting it down in words is forcing me to consider the details deeper than I had before. This is the exciting stuff of new products
 
+## Lessons Learned
+
+A running log of things I picked up building this project.
+
+**Session 1 — Building the pipeline**
+
+- **The toolchain is its own learning curve.** Before writing a single line of product code, I had to install Homebrew, Java, pip, configure API keys, and understand `.env` files. None of this is hard in retrospect, but it's invisible to people who've been doing it for years. Budget time for it.
+
+- **Building forces you to answer questions you've been avoiding.** I've had this idea for years. Putting it into code required me to define things I had left vague: what exactly goes in a vignette, how clinical data maps to a structured schema, what the output format should be. The act of building is itself product design.
+
+- **Claude Code compresses the distance between idea and software.** I described what I wanted, and working code appeared. I still had to understand the output, debug problems, and make decisions — but the barrier to entry for someone without a CS background is genuinely lower than I expected.
+
+- **Commit messages are a project diary.** Git isn't just version control — the commit history is a record of what you built and why. Worth writing carefully.
+
 ## Next Steps
 
 - Research [Synthetic Mass](https://synthea.mitre.org/?ck_subscriber_id=2438996986&utm_source=convertkit&utm_medium=email&utm_campaign=cool%20open%20source%20healthcare%20projects%20-%2021021367&sh_kit=c17fb063fed6efb2f12f03184637bf5f906072fb98dbbe4a4132881b274410f4)
